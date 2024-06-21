@@ -1,0 +1,19 @@
+{
+  "name": "number-prettifier",
+  "version": "1.0.0",
+  "description": "The task is to create a number prettifier function that takes a numeric input and returns human redable string format. For millions, billions and trillions, truncate the number, add suffixes as M, B and T. If truncated number not an integer, then make it once decimal point.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node dist/numberPrettifier.js",
+    "test": "npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "typescript": "^5.5.2"
+  }
+}
